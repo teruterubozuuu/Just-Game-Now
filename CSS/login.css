@@ -18,7 +18,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 10px;
 }
 
 #title{
@@ -71,6 +71,7 @@ body{
     box-shadow: 0 4px 8px 0 rgb(84, 15, 148), 0 6px 20px 0 rgb(84, 15, 148);
     border-radius:15px;
     background-image: linear-gradient(to bottom, #5b1dac, #621cb3, #6a1bba, #7219c0, #7a16c7);
+    margin-top: 15;
 }
 
 .wrapper h1{
