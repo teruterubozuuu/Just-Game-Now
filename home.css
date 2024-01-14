@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(to top, #8712d3, #7615c6, #6516b9, #5516ac, #45159f);
+    background-attachment: fixed;
+
+}
+
+.parent{
+    display:flex;
+    height:200px;
+    
+}
+
+#title{
+    color:aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 120px;
+    position:absolute;
+    top:40%;
+    width:100%;
+    transform: translateY(-50%);
+    text-align:center;
+}
+
+#justWord{
+    color:#7c58ff;
+    text-shadow: 2px 2px #ffffff;
+}
+
+
+#gameWord{
+    color:#9942fc;
+    text-shadow: 2px 2px #ffffff;
+}
+
+#nowWord{
+    color:#d01ff3;
+    text-shadow: 2px 2px #ffffff;
+}
+
+
+
+#description{
+    color: #ffffff;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    position:absolute;
+    top:49%;
+    width:100%;
+    transform: translateY(-50%);
+    text-align:center;
+}
+
+.parentBtn{
+    top:57%;
+    position:absolute;
+    width:100%;
+    transform: translateY(-50%);
+    text-align:center;
+}
+
+button{
+    padding:15px 0;
+    border-radius: 20px;
+    border:0;
+    background-color:rgb(135, 26, 238);
+    box-shadow: 5px 5px 0px rgb(84, 15, 148);
+    width:200px;
+    text-align:center;
+    margin:20px 10px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size:20px;
+    color:aliceblue;
+    transition-duration: .3s;
+}
+
+button:hover{
+    background-color: rgb(157, 38, 255);
+    box-shadow: 5px 5px 0px rgb(125, 32, 212);
+    color:white;
+    cursor:pointer;
+}
+
+.titleAnim{
+    cursor: default;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+/* This is all we need :D */
+.titleAnim:hover {
+    transform:translateY(-20%);
+    transition: transform 0.2s ease;
+  }
