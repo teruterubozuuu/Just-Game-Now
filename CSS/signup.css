@@ -25,10 +25,10 @@ body{
     color:aliceblue;
     font-family: 'Pixelify Sans', sans-serif;
     letter-spacing: 3px;
-    font-size: 70px;
+    font-size: 90px;
     position:absolute;
-    top:20%;
-    width:100%;
+    top:120px;
+    width:1000px;
     text-align:center;
 }
 
@@ -52,7 +52,7 @@ body{
     cursor: default;
     display: inline-block;
     transition: transform 0.2s ease;
-}
+}   
 
 /* This is all we need :D */
 .titleAnim:hover {
@@ -65,43 +65,54 @@ body{
     color:#ffffff;
     padding:20px ;
     position:absolute;
-    top:53%;
+    top:530px;
     width:420px;
     transform: translateY(-50%);
-    border:2px solid rgb(158, 54, 255);
-    box-shadow: 5px 5px 0px rgb(84, 15, 148);
-    border-radius:20px;
-    background:transparent;
+    box-shadow: 0 4px 8px 0 rgb(84, 15, 148), 0 6px 20px 0 rgb(84, 15, 148);
+    border-radius:15px;
+    background-image: linear-gradient(to bottom, #5b1dac, #621cb3, #6a1bba, #7219c0, #7a16c7);
+    margin-top: 15;
 }
 
 .wrapper h1{
     text-align:center;
     font-size:36px;
+    margin-bottom:20px;
 }
 
 .wrapper .input-box{
+    padding: 0 20px;
     position: relative;
     width:100%;
+    justify-content: center;
     height:50px; 
     margin:30px 0;
+    font-family:'Poppins',sans-serif;
 }
 
 .input-box input{
     width:100%;
-    height:100%;
+    height:95%;
     background:transparent;
-    border:none;
     outline:none;
-    border:2px solid rgb(158, 54, 255);
-    border-radius:40px;
+    border: none;
+    border:2px solid rgb(211, 154, 255);
+    border-radius:15px;
     font-size:16px;
     color:white;
     padding:20px 45px 20px 20px;
+    font-family:'Poppins',sans-serif;
 
 }
 
 .input-box input::placeholder{
-    color:#ffffff;
+    font-family:'Poppins',sans-serif;
+    color:#cc9fff;
+}
+
+.input-box input::placeholder{
+    font-family:'Poppins',sans-serif;
+    color:#cc9fff;
 }
 
 .input-box i{
@@ -112,32 +123,35 @@ body{
 }
 
 .wrapper .btn{
+    margin:0 20px;
     color:#ffffff;
-    width:100%;
+    width:90%;
     border:none;
     outline:none;
     margin-bottom:5%;
-    border-radius:40px;
+    border-radius:15px;
     cursor:pointer;
-    height:45px;
+    height:50px;
     font-family: 'Pixelify Sans', sans-serif;
-    background-color:rgb(135, 26, 238);
-    box-shadow: 5px 5px 0px rgb(84, 15, 148);
+    background-color:rgb(138, 27, 228);
+    
 }
 
 .wrapper .btn:hover{
     background-color: rgb(157, 38, 255);
-    box-shadow: 5px 5px 0px rgb(125, 32, 212);
     color:white;
     cursor:pointer;
 }
 
-p{
+
+/* Back to Login page */
+#redirectLogin {
         text-align: center;
         margin-top:2%;
         margin-bottom:7%;
 }
 
 a{
-    color:#ff53ff
+    color:#e298ff
 }
+
