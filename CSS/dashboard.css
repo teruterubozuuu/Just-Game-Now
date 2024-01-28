@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #8712d3, #7615c6, #6516b9, #5516ac, #45159f);
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+/*Custom Scrollbar*/
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #2d0f64;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #44169b;
+}
+
+/*Header*/
+.wrapper{
+    background-color: #2e145f;
+    height: 10vh;
+    overflow:hidden;
+
+}
+
+
+.wrapper #title{
+    color:aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    float:left;
+    margin:20px 30px;
+}
+
+#justWord{
+    color:#7c58ff;
+    text-shadow: 2px 2px #ffffff;
+}
+
+
+#gameWord{
+    color:#9942fc;
+    text-shadow: 2px 2px #ffffff;
+}
+
+#nowWord{
+    color:#d01ff3;
+    text-shadow: 2px 2px #ffffff;
+}
+
+
+.wrapper div a.profile{
+    color:white;
+    font-size:35px;
+    margin:22px 30px;
+    float:right;
+}
+
+/* CONTENT */
+
+.content-wrapper{
+    overflow:hidden;
+}
+
+.todo-list{
+    background-color: rgba(46, 20, 95);
+    height:86vh;
+    width:75%;
+    border:none;
+    border-radius:10px;
+    margin:19px;
+    display:flex;
+    position:absolute;
+    float:left;
+    padding:10px;
+}
+
+.progress-board{
+    background-color: rgba(46, 20, 95);
+    height:86vh;
+    width:22%;
+    border:none;
+    border-radius:10px;
+    margin:19px;
+    float:right;
+    padding:10px;
+}
+
+.todo-list h1{
+    font-family: 'Pixelify Sans', sans-serif;
+    color:#ffffff;
+}
+
+.missionWord{
+    color:#7c58ff;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.listWord{
+    color:#9942fc;
+    text-shadow: 1px 1px #ffffff;
+}
